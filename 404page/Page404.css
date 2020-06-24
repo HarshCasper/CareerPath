@@ -1,0 +1,64 @@
+*{
+     margin:0;
+     padding:0;
+     background-color:floralwhite;
+     width: 100% vw;
+     height: 100% vh;
+}
+#return{
+    background-color: lightgrey;
+}
+a{ 
+  color:indigo;
+  font-size: 30px;
+  background-color: lightgrey;
+}
+  a:hover{
+  color: red;
+}
+#main-block{
+  margin-left: 30%;
+  margin-right: 33%;
+  font-size:150px;
+  font-weight:bold;
+  color:darkgray;
+  padding-top: 100px; 
+  padding-bottom :0px;
+}
+#fof{ 
+  margin-left:  35%;
+ font-size:150px;
+ font-weight:Bold;
+ color:red;
+}
+#error{
+  color:green;
+  -webkit-animation:colorchange 2s infinite alternate;
+  font-size:15px;
+  font-weight:Bold;
+  margin-left: 34%;
+  margin-right: 33%;
+}
+@-webkit-keyframes colorchange{
+  0%{
+    color:grey;
+  }
+  10%{
+    color:red;
+  }
+  20%{
+    color:black;
+  }
+  30%{
+    color:blue;
+  }
+  40% { 
+    color:green;
+  }
+  50%{
+    color:red;
+  }
+  60%{
+    color:black;
+  }
+}

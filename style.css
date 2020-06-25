@@ -1,0 +1,61 @@
+html{
+    background: linear-gradient(to right, #780206, #061161);
+    height: 100%; width: 100%; background-repeat: no-repeat;
+    background-size: auto; font-
+}
+
+.tm{
+  font-size: 120px;
+  color: White;
+  text-align: Center;
+  font-family: 'Dancing Script', cursive;
+}
+.tm1{
+  font-size: 40px;
+  color: White;
+  text-align: Center;
+  font-family: 'Abel', sans-serif;
+}
+.tm2{
+  font-size: 30px;
+  color: White;
+  text-align: Center;
+  font-family: 'Abel', sans-serif;
+}
+.button1{
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px; cursor: pointer;
+  box-shadow: 5px 5px 15px 5px #000000;
+  font-family: 'Pacifico', cursive;
+  
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}

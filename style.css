@@ -22,40 +22,15 @@ html{
   text-align: Center;
   font-family: 'Abel', sans-serif;
 }
-.button1{
-  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)
-  border: none;
-  color: white;
-  padding: 10px 35px;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  border-radius: 20px; cursor: pointer;
-  box-shadow: 5px 5px 15px 5px #000000;
-  font-family: 'Pacifico', cursive;
-  
+.btt{
+  text-align: right;
 }
-.button1 span {
+ .btn {
+  border-radius: 50px;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button1:hover span {
-  padding-right: 25px;
-}
-
-.button1:hover span:after {
-  opacity: 1;
-  right: 0;
+  border: 2px solid black;
+  color: White;
+  font-size: 16px;
+  padding: 14px 35px;
+  background-color:rgba(0, 0, 0, 0.5);" 
 }

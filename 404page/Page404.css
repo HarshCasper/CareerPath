@@ -1,0 +1,57 @@
+*{
+     margin:0;
+     padding:0;
+     background-color:white;
+     width: 100% vw;
+     height: 100% vh;
+}
+.button{
+  margin:7px;
+  padding:15px 25px;
+  font-size:24px;
+  text-align:center;
+  cursor:pointer;
+  font-weight:bold;
+  outline:none;
+  color:indigo;
+  background-color:lightgrey;
+  border:none;
+  border-radius:5px;
+}
+.button :active{
+ transform:translateY(4px);
+}
+#main-block{
+  margin-left: 25%;
+  margin-right: 33%;
+  font-size:190px;
+  font-weight:bold;
+  color:darkgrey;
+  padding-top: 50px; 
+  padding-bottom:0px;
+}
+#fof{ 
+  margin-left:  30.5%;
+  padding-bottom:0px;
+}
+#error{
+  -webkit-animation:colorchange 3s infinite alternate;
+  font-size:16px;
+  font-weight:Bold;
+  margin-left: 30.4%;
+  margin-right: 33%;
+}
+@-webkit-keyframes colorchange{
+  20%{
+    color:blue;
+  }
+  40%{
+    color:green;
+  }
+  60%{
+    color:red;
+  }
+  80%{
+    color:black;
+  }
+}

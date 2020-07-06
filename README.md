@@ -13,7 +13,7 @@ Uplift Project is a global-remote initiative for people worldwide who want to ta
 
 ## 📌 Introduction
 
-The primary purpose for our Project is to create a Website for Students to get the required Career Paths in various fields which they can follow to excel in their future. With seperate sections, where they can view recent Internship Opportunities, Learning Courses that they can undertake and Blogs will allow them to better understand the need of the future and more. We will also be integrating a Chatbot which allows them to get some real insights and better answers to their question.
+The primary purpose for our Project is to create a Website for Students to get the required Career Paths in various fields which they can follow to excel in their future. With separate sections, where they can view recent Internship Opportunities, Learning Courses that they can undertake and Blogs will allow them to better understand the need of the future and more. We will also be integrating a Chatbot which allows them to get some real insights and better answers to their question.
 
 ## ⭐ How to get started?
 

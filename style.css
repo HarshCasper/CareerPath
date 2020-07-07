@@ -1,0 +1,270 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(253deg, #a6dcef, #1797d2, #1b6ca8);
+  background-size: 300% 300%;
+  -webkit-animation: Background 5s ease infinite;
+  -moz-animation: Background 5s ease infinite;
+  animation: Background 5s ease infinite;
+  background-position: 0px 50px;
+  overflow:hidden;
+}
+
+@-webkit-keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+img{
+height:250px;
+width: 250px;
+border-radius: 50%;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(160deg, #5fdde5 0%, #1b6ca8  100%);
+  position: relative;
+}
+
+.nav-title{
+  font-family: 'Piedra', cursive;
+  font-weight: bold;
+  font-size: 2.6rem !important;
+  margin-top: -8px;
+  color: black !important;
+  border: white !important;
+  border-style: dashed;
+}
+
+.nav-links{
+  font-family: 'Notable', sans-serif;
+}
+
+.nav>.nav-header {
+  display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+  display: inline-block;
+  font-size: 2.4rem !important;
+  color: #fff;
+  padding: 10px 20px 10px 10px;
+}
+
+.nav>.nav-btn {
+  display: none;
+}
+
+.nav>.nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav>.nav-links>a {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav>.nav-links>a:hover {
+  background-color: grey;
+}
+
+.nav>#nav-check {
+  display: none;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  margin-bottom: -10px;
+  /*Fix for safari gap*/
+  min-height: 80px;
+  max-height: 100px;
+}
+
+.typer{
+  color: white !important;
+  font-size: 3rem;
+}
+
+.main_page {
+  height: 50vh;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color:white;
+}
+
+footer{
+  text-align: center;
+  background-color: #5fdde5;
+  height: 32px;
+  padding: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+}
+
+/* Animation */
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(90px, 0, 0);
+  }
+}
+
+.logo{
+  margin-top:150px;
+  margin-left: 45%;
+}
+
+.description{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+.bottom{
+  display: none;
+}
+
+.main_page{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.logo{
+  margin-left: 30%;
+}
+
+.description{
+  font-size: 0.8rem !important;
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #5fdde5;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  bottom: 0;
+  margin-top: 80px;
+}
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+  }
+
+  .nav>#nav-check:not(:checked)~.nav-links {
+    height: 0px;
+  }
+
+  .nav>#nav-check:checked~.nav-links {
+    height: 150px;
+    overflow-y: hidden;
+  }
+}

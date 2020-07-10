@@ -59,24 +59,8 @@
 }
 .container input{
   width:190px;
-  padding:10px;
-  margin:3px;
-  color:black;
-  background-color:white;
-  border:1px solid grey;
-  font:0.8em "Lucida Grande","Lucida Sans Unicode",Arial,Sans-serif;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
-  vertical-align:top;
-  transition:all 0.25s ease-in-out;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  box-shadow:0 0 5px black;
-  -webkit-box-shadow: 0 0 5px black;
-  -moz-box-shadow: 0 0 5px;
 }
-.container textarea{
+.container input, .container textarea{
   padding:10px;
   margin:3px;
   color:black;

@@ -52,8 +52,8 @@ body {
 .card:hover,
 .card:focus,
 .card:active {
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
+    -webkit-transform: scale(1.026);
+    transform: scale(1.026);
 }
 
 .title h3 {

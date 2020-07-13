@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+	<head> 
+			<link rel = "Stylesheet" type = "text/css" href = "contact.css">     
+             <a href ="Index.html"><button class = "button">Home</button></a>
+             </head>
+             <body>
+        <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="on"> 
+		<div class = "container1">
+	        <img src = "/ContactUs/Imgs/Contact.png/"  alter="image" id="img">	
+       <div class = "container">
+	       <fieldset class = "contact">  
+	               <legend id = "details">Contact Us</legend> 
+	         <div> 
+		            <label for="name" >Your Name</label> 
+		            <input name="name" type="text" id="name" placeholder="Enter your name" required="required" /> 
+	           </div> 
+	           <div> 
+		            <label for="email">Email</label> 
+		            <input name="email" type="email" id="email" placeholder="Enter your email address"
+                required="required" /> 
+	           </div>	            			
+	           <div> 
+					<label for="phone">Phone <small>(optional)</small></label> 
+		            <input name="phone" type="tel" id="phone" size="30" placeholder="Enter your phone number" /> 
+                 </div> 	             
+                 <div> 
+					<label for="subject">Subject</label> 
+            		<textarea name="subject"  id="subject"  cols="30" rows="4" placeholder="Enter your subject" spellcheck="true" required="required"></textarea> 
+	         </div>      
+	        </fieldset>    
+               <div>     
+            <input type="submit"  class = "submit" id="submit" value="Submit" /> 	
+        </form> 
+		</div>
+			</div> 
+</body> 
+</html>

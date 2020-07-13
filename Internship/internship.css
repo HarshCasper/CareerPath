@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #333;
+    background-color: #d8e3ea;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #273238;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.main {
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+
+.main h3 {
+    height: 100%;
+    display: table-cell;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.card {
+    margin: 34px auto;
+    max-width: 95%;
+    width: 920px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-title {
+    text-decoration: none !important;
+    color: #484848;
+}
+
+.card-title:hover {
+    text-decoration: none !important;
+    color: #484848;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    -webkit-transform: scale(1.026);
+    transform: scale(1.026);
+}
+
+.title h3 {
+    padding-top: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #484848;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    font-size: 22.5px;
+}
+
+.title p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    opacity: 0.7;
+    line-height: 1.6;
+    color: #6b6b6b;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+h4 {
+    font-size: large;
+    font-family: Inter, sans-serif;
+    color: #484848;
+    font-weight: 600;
+}
+
+.duration h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Inter, sans-serif;
+    color: #484848;
+    font-weight: 600;
+}
+
+.skill h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Inter, sans-serif;
+    color: #484848;
+    font-weight: 600;
+}
+
+.duration p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    opacity: 0.7;
+    line-height: 1.6;
+    color: #6b6b6b;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.stipend p {
+    text-align: left;
+    opacity: 0.7;
+    line-height: 1.6;
+    color: #6b6b6b;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.skill p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    opacity: 0.7;
+    line-height: 1.6;
+    color: #6b6b6b;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.link {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    font-size: 16.7px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+}
+
+.link:hover {
+    color: rgb(34, 88, 238);
+    font-weight: 625;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background-color: #e4e5e4;
+}

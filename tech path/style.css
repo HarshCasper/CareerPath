@@ -1,0 +1,82 @@
+.navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#logo {
+    height: 100px;
+}
+
+.button {
+    background-color: #232323;
+    color: #ffffff;
+    border: none;
+    height: 60px;
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 30px;
+    color: #ffffff;
+    background-color: #232323;
+    font-weight: 400;
+}
+
+button:hover {
+    border-bottom: solid orange;
+    background-color: none;
+}
+
+#login {
+    background-image: linear-gradient(to right, #e74e4b, #fb8133);
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    font-weight: 700;
+}
+
+#login:hover {
+    background-image: linear-gradient(to right, #fb8133, #e74e4b);
+}
+
+.div {
+    background-color: floralwhite;
+    height: 300px;
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.courses {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    width: 347px;
+    height: 353px;
+    color: #1A6692;
+    box-shadow: black;
+}
+
+.img {
+    height: 200px;
+}
+
+.footer {
+    background-attachment: fixed;
+    background-color: #1b1e26;
+    height: 300px;
+}
+
+#footer2 {
+    background-color: #14161c;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+}

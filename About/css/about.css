@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+}
+
+/* Media Queries End*/
+
+/* Bootstrap Padding Fix */
+[class*="col-"] {
+  padding: 1rem;
+}
+
+#about_us {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  padding-top: 1px;
+  background-color: rgb(243, 240, 234);
+  max-height: max-content;
+  padding-bottom: 4rem;
+  text-align: justify;
+}
+.image-container{
+  vertical-align: auto;
+  padding-top: 90px;
+  padding-bottom: 30px;
+
+}
+.about {
+  /* padding-top: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_heading {
+  font-family: "Alegreya", serif;
+  color: #af1d70be;
+  display: flex;
+  justify-content: center;
+}
+
+.about_para {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+.about_img {
+  margin: auto;
+
+}
+
+
+#contributors {
+  padding-top: 40px;
+  
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.contri_heading h1 {
+  margin: auto;
+  font-family: "Alegreya", serif;
+  font-size: 2.4rem;
+  padding-left: 20px;
+}
+
+.contri_names {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,33 @@
+body{
+  background: linear-gradient( #d3dbff, #8675a9);
+}
+
+.tm{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  font-size: 120px;
+  color: black;
+  text-align: Center;
+  font-family: 'Dancing Script', cursive;
+}
+.tm1{
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: rgb(70, 69, 69);
+  text-align: Center;
+  font-family: 'Abel', sans-serif;
+}
+.tm2{
+  padding-top: 50px;
+  font-size: 30px;
+  color: rgb(70, 69, 69);
+  text-align: Center;
+  font-family: 'Abel', sans-serif;
+}
+
+.welcome-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

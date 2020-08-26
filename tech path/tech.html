@@ -2,71 +2,127 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="../favicon_io/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="footer, address, phone, icons" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="h&f.css">
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="style.css" />
 
 
-  <title>Learning Path</title>
+  <title>Tech Path</title>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+    });
+	</script> 
 </head>
 
-<body>
-  <div class="navbar">
-    <img src="./images/techlogo.png" alt="top logo" id="logo" />
-    <div>
-      <button class="button">About Us</button>
-      <button class="button">Learning Path</button>
-      <button class="button">Blog Page</button>
-      <button class="button">Contact Us</button>
-      <button class="button">Internship Page</button>
-      <button class="button" id="login">Login</button>
+<body style="background-color: #e4e9ff;">
+  <div id="header"></div>
+<div class="container main-body">
+  <div class="row main-body-row">
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_web_developer_p3e5.svg" class="image">
+        <h3>Web Development</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_sentiment_analysis_jp6w.svg" class="image">
+        <h3>Machine Learning</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_Firmware_jw6u.svg" class="image">
+        <h3>Artificial Intelligence</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
     </div>
   </div>
+  
+  <div class="row">
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_software_engineer_lvl5.svg" class="image">
+        <h3>Data Structures & Algorithms</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_hacker_mind_6y85.svg" class="image">
+        <h3>Ethical Hacking</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 main-body-col">
+      <div class="courses"> <img src="images/undraw_design_feedback_dexe.svg" class="image">
+        <h3>Graphic Designing</h3>
+        <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <div class="div">
-    <div class="courses"> <img src="./images/undraw_web_developer_p3e5.png" class="img">
+  <!-- <div class="div"> 
+    <div class="courses"> <img src="images/undraw_web_developer_p3e5.png" class="image">
       <h3>Web Development</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
-    <div class="courses"> <img src="./images/undraw_sentiment_analysis_jp6w.png" class="img">
+    <div class="courses"> <img src="images/undraw_sentiment_analysis_jp6w.png" class="image">
       <h3>Machine Learning</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
-    <div class="courses"> <img src="./images/undraw_Firmware_jw6u.png" class="img">
+    <div class="courses"> <img src="images/undraw_Firmware_jw6u.png" class="image">
       <h3>Artificial Intelligence</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
   </div>
-
   <div class="div">
-    <div class="courses"> <img src="./images/undraw_software_engineer_lvl5.png" class="img">
-      <h3>Data structures and Algorithms</h3>
+    <div class="courses"> <img src="images/undraw_software_engineer_lvl5.png" class="image">
+      <h3>Data Structures & Algorithms</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
-    <div class="courses"> <img src="./images/undraw_hacker_mind_6y85.png" class="img">
+    <div class="courses"> <img src="images/undraw_hacker_mind_6y85.png" class="image">
       <h3>Ethical Hacking</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
-    <div class="courses"> <img src="./images/undraw_design_feedback_dexe.png" class="img">
+    <div class="courses"> <img src="images/undraw_design_feedback_dexe.png" class="image">
       <h3>Graphic Designing</h3>
       <p style="color: #232323;">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.
       </p>
     </div>
-  </div>
+  </div> -->
+  <div id="footer"></div>
 
 
 </body>
-<footer>
-  <div class="footer">
-    <div>Development Courses</div>
-  </div>
-  <div id="footer2">Designed with love by Uplift Team</div>
-</footer>
+
 
 </html>

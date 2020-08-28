@@ -9,7 +9,20 @@
 	<link rel="manifest" href="../favicon_io/site.webmanifest">
       <link rel = "Stylesheet" type = "text/css" href= "Page404.css">
       </head>
-      <body>                 
+      <body>  
+	      <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "8c0ad474-4155-4c9a-8540-9209769c80a4", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "3475eb31-4727-4d23-9308-0176e0eef110", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
       <a href ="../Landing/landing.html">
           <button class = "button">Home</button> <! --link to return to main    page -->
           </a>
